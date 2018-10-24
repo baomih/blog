@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="">
+        <input type="text" placeholder="需要过滤的文本" id="input">
+        <button id="btn">过滤</button>
+    </form>
+    <script>
+    function my$(id) {
+        return document.getElementById(id)
+    }
+    my$('btn').onclick = function() {
+        my$('input').value = my$('input').value.replace('//')
+    }
+    </script>
+</body>
+
+</html>

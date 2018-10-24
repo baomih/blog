@@ -1,0 +1,53 @@
+.bl_article .l_box ul {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 30px;
+}
+
+.bl_article .l_box ul li {
+    height: 32px;
+}
+
+.bl_article .l_box ul li span {
+    position: relative;
+    color: #1f7994;
+}
+
+.bl_article .l_box ul li span::after {
+    position: absolute;
+    top: -2px;
+    right: -18px;
+    content: "";
+    display: block;
+    width: 2px;
+    height: 40px;
+    background-color: #cccaca;
+}
+
+.bl_article .l_box ul li i {
+    position: relative;
+    padding-left: 30px;
+    font-size: 15px;
+    font-style: normal;
+}
+
+.bl_article .l_box ul li i::before {
+    position: absolute;
+    top: 3px;
+    left: 5px;
+    content: "";
+    display: block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 2px solid #cccaca;
+    background: #fff;
+}
+
+.bl_article .l_box ul li i a {
+    color: #666;
+}
+
+.bl_article .l_box ul li i:hover > a {
+    color: #1f7994;
+}
